@@ -43,6 +43,9 @@ import CreativeWriting from './CreativeWriting'
 import Philosophy from './Philosophy'
 import English from './English'
 import SocialPsycology from './SocialPsycology'
+import GovtScholorship from './GovtScholorship'
+import PrivateScholorship from './PrivateScholorship'
+import StateScholorship from './StateScholorship'
 const Body = () => {
 const dispatch=useDispatch()
   const approuter =createBrowserRouter([
@@ -202,6 +205,18 @@ const dispatch=useDispatch()
   {
     path:"/Socialpsychology",
     element:<SocialPsycology/>
+  },
+  {
+    path:"/GovernmentScholorships",
+    element:<GovtScholorship/>
+  },
+  {
+    path:"/PrivateScholorship",
+    element:<PrivateScholorship/>
+  },
+  {
+    path:"/StateScholorship",
+    element:<StateScholorship/>
   }
   ])
   useEffect(()=>{

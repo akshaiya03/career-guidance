@@ -12,18 +12,18 @@ const Navbar =()=>{
  
   return(
     <div >
-        <ul className='flex font-semibold  '>
+        <ul className='font-semibold  '>
             <Link  
-            className=' sm: m-2  pr-3 cursor-pointer'
+            className='block sm:inline-block m-2 pr-3'
             to="/career"
             >Career</Link>
-            <Link  className='sm: m-2 pr-3 cursor-pointer'
+            <Link  className='block sm:inline-block m-2 pr-3'
              to="/Colleges"
             >Colleges</Link>
-            <Link className='sm: m-2 pr-3 cursor-pointer'
-            to="Scholorship"
+            <Link className='block sm:inline-block m-2 pr-3'
+            to="/Scholorship"
             >scholorship</Link>
-            <Link   className='sm: m-2 pr-3 cursor-pointer'
+            <Link   className='block sm:inline-block m-2 pr-3'
             to="/Course"
             >Courses</Link>
             <Link 
